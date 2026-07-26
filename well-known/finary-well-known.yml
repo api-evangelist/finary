@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of /.well-known/ on Finary hosts
+host: https://finary.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: finary-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_hosts:
+- host: https://app.finary.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+notes: >-
+  Only /.well-known/security.txt is published (RFC 9116), advertising a private,
+  invite-only bug bounty program with contact bugbounty@finary.com. No OIDC /
+  OAuth authorization-server discovery, api-catalog, or ai-plugin manifest is
+  exposed — consistent with Finary shipping no official public API.

@@ -1,0 +1,33 @@
+# Finary
+
+> Finary is a French fintech platform for personal wealth tracking and management. It aggregates a user's entire net worth — stocks, funds, ETFs, cryptocurrency, real estate, savings, life insurance, startups and alternative assets — into one dashboard by connecting to 20,000+ banks and brokers. It adds fee detection, allocation and diversification analysis, dividend tracking, budgeting, in-app crypto trading/staking and life-insurance products. 1M+ users; regulated in France by the AMF and ACPR. Finary publishes NO official public API or SDK; app frontends use a private, undocumented API that the community has reverse-engineered.
+
+## Product
+- [Finary website](https://finary.com): Follow, optimize and invest your wealth in one place.
+- [Pricing](https://finary.com/en/pricing): Finary Lite (free), Finary Plus (EUR 149.99/yr), Finary Pro.
+- [Security](https://finary.com/en/security): TLS in transit, AES-256 at rest, read-only bank access via Plaid/Powens/Flanks, third-party pen tests, private bug bounty.
+- [Sign up](https://app.finary.com/v2/signup) / [Log in](https://app.finary.com/v2/login)
+
+## Support & Community
+- [Help Center](https://help.finary.com/en/): Product help articles.
+- [Community forum](https://community.finary.com): Investor community, including the "[Dev] API Finary" thread on the unofficial API.
+- [Blog](https://finary.com/en/blog): Investing and product content.
+
+## Developers (unofficial / community)
+- [GitHub org](https://github.com/finary-wealth): Finary's org (curated "awesome" list + forks; no official API/SDK).
+- [Community OpenAPI spec](https://lasconic.github.io/openapi-finary/): Reverse-engineered OpenAPI for the private Finary API (community, unofficial).
+- [Python client (finary-uapi)](https://pypi.org/project/finary-uapi/): Community CLI/library — `pip install finary-uapi`.
+- [Ruby gem (abrisse/finary)](https://github.com/abrisse/finary): Community Finary::Client.
+
+## Legal
+- [Terms of Service](https://finary.com/en/terms)
+- [Privacy Policy](https://finary.com/en/privacy)
+- [Status](https://finary.statuspage.io)
+
+## Repo artifacts (API Evangelist enrichment)
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/apis.yml)
+- [security.txt](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/well-known/finary-security.txt)
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/security/finary-domain-security.yml)
+- [Vulnerability disclosure](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/security/finary-vulnerability-disclosure.yml)
+- [Packages](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/packages/finary-packages.yml)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/lifecycle/finary-lifecycle.yml)

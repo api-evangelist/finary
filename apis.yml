@@ -1,7 +1,30 @@
 aid: finary
 name: Finary
-description: Finary is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Finary is a French fintech platform for personal wealth tracking and
+  management that aggregates a user's entire net worth — stocks, funds, ETFs,
+  cryptocurrency, real estate, savings, life insurance, startups and other
+  alternative assets — into a single dashboard by connecting to 20,000+ banks
+  and brokers worldwide. Beyond tracking, Finary offers fee detection,
+  diversification and sector/geo allocation analysis, dividend monitoring,
+  budgeting, in-app crypto buying/selling and staking, and life-insurance
+  products. The company reports more than one million users and is regulated in
+  France by the AMF and ACPR. Finary does not publish an official public REST
+  API or SDKs; the app frontends talk to a private API that the developer
+  community has reverse-engineered into an unofficial OpenAPI spec and language
+  wrappers.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/66436486?v=4
 url: https://raw.githubusercontent.com/api-evangelist/finary/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,66 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Wealth Management
+- Personal Finance
+- Investing
+- Cryptocurrency
+- Net Worth Tracking
+- Account Aggregation
+- Budgeting
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/finary-vulnerability-disclosure.yml
+- type: Security
+  url: https://finary.com/en/security
+- type: DomainSecurity
+  url: security/finary-domain-security.yml
+- type: SecurityTxt
+  url: well-known/finary-security.txt
+- type: WellKnown
+  url: well-known/finary-well-known.yml
+- type: Packages
+  url: packages/finary-packages.yml
+- type: Lifecycle
+  url: lifecycle/finary-lifecycle.yml
+- type: StatusPage
+  url: https://finary.statuspage.io
+- type: LLMsTxt
+  url: llms/finary-llms.txt
+- type: Website
+  url: https://finary.com
+- type: Blog
+  url: https://finary.com/en/blog
+- type: Support
+  url: https://help.finary.com
+- type: HelpCenter
+  url: https://help.finary.com/en/
+- type: Community
+  url: https://community.finary.com
+- type: Pricing
+  url: https://finary.com/en/pricing
+- type: SignUp
+  url: https://app.finary.com/v2/signup
+- type: Login
+  url: https://app.finary.com/v2/login
+- type: TermsOfService
+  url: https://finary.com/en/terms
+- type: PrivacyPolicy
+  url: https://finary.com/en/privacy
+- type: GitHubOrganization
+  url: https://github.com/finary-wealth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

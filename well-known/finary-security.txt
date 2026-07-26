@@ -1,0 +1,6 @@
+# Discovered a security issue ? Email us to join our private bug bounty program 
+# Please don't email reports, and kindly skip the vague threats and pressure tactics
+Contact: mailto:bugbounty@finary.com
+Preferred-Languages: en, fr
+Canonical: https://finary.com/.well-known/security.txt
+Expires: 2026-10-21T16:29:00Z

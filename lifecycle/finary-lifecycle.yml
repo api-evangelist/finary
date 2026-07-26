@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  https://finary.statuspage.io, https://finary.com/en/security,
+  https://help.finary.com
+status_page: https://finary.statuspage.io
+versioning:
+  scheme: unknown
+  note: >-
+    Finary publishes no official public API and no documented API versioning or
+    deprecation policy. The app frontends consume a private, undocumented API.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+sla:
+  url: null
+  uptime_target: null
+deprecated_operations: []
+notes: >-
+  A public Statuspage (finary.statuspage.io) reports platform availability. No
+  developer-facing lifecycle, versioning, or deprecation policy exists because
+  there is no official public API surface.

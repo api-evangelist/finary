@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  PyPI, RubyGems, GitHub org github.com/finary-wealth (awesome list). Finary
+  publishes NO official/first-party client SDK; every library below is
+  community-built against Finary's private (undocumented) app API.
+official_sdks: false
+packages:
+- language: python
+  registry: pypi
+  name: finary-uapi
+  url: https://pypi.org/project/finary-uapi/
+  source: https://github.com/lasconic/finary_uapi
+  install: pip install finary-uapi
+  official: false
+  description: >-
+    Community Python client and command-line tool for the unofficial Finary API
+    (investments, crypto, precious metals, checking accounts).
+- language: ruby
+  registry: github
+  name: finary
+  url: https://github.com/abrisse/finary
+  source: https://github.com/abrisse/finary
+  install: "add to Gemfile from git source https://github.com/abrisse/finary"
+  official: false
+  description: >-
+    Community Ruby gem exposing Finary::Client to call the unofficial Finary API
+    routes directly. Not published to RubyGems as of this pass.
+related_community_resources:
+- name: openapi-finary
+  kind: openapi-spec
+  url: https://github.com/lasconic/openapi-finary
+  rendered: https://lasconic.github.io/openapi-finary/
+  official: false
+  description: >-
+    Community-maintained OpenAPI specification reverse-engineered from Finary's
+    private app API, rendered with ReDoc. Not an official Finary specification —
+    intentionally NOT captured as this repo's openapi/ artifact.
+- name: awesome (finary-wealth)
+  kind: curated-list
+  url: https://github.com/finary-wealth/awesome
+  official: true
+  description: Finary's own curated list of Finary libraries, resources and projects.
